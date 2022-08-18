@@ -18,14 +18,14 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of foo is to ...
+The goal of foo is to calculate the shannon index
 
 ## Installation
 
 You can install the development version of foo like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("dsuarez72/foo_package")
 ```
 
 ## Example
@@ -35,6 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(foo)
 ## basic example code
+my_shannon(c(1, 2, 3))
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
