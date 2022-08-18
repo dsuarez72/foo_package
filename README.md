@@ -23,6 +23,7 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(foo)
 ## basic example code
+my_shannon(c(1, 2, 3))
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
